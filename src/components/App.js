@@ -109,16 +109,6 @@ export default function App() {
           {todos.map((todo, key) => (
             <li key={key}>{todo.name}</li>
           ))}
-            {/* <li>Şükür Hər şey üçün</li>
-            <li>İstirahət də önəmli</li>
-            <li>$</li>
-            <li>Dərs oxu !!</li>
-            <li>Baxx belee davamm</li>
-            <li>Udemyə bax !</li>
-            <li>Youtube dərslərə bax !</li>
-            <li>Karyerada yüksəl !!</li>
-            <li>Sosial şəbəkələrə yox de !!</li>
-            <li>Əhsən sənə Güliçka</li> */}
         </ul>
       </div>
     </div>
